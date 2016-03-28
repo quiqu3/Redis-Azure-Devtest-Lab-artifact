@@ -10,7 +10,7 @@
   "iconUri": "https://chocolatey.org/content/packageimages/redis-64.3.0.501.svg",
   "targetOsType": "Windows",
   "runCommand": {
-    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList redis-64"
+    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList skype"
  
   }
 }
