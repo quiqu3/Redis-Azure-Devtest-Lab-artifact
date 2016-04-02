@@ -2,15 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
   "title": "RedisCli",
   "description": "Installs Redis client a the Chocolatey package manager.",
+  "description": "Installs Redis client from the Chocolatey package manager.",
   "tags": [
     "Windows",
     "redis"
      
   ],
-  "iconUri": "https://chocolatey.org/content/packageimages/redis-64.3.0.501.svg",
+  "iconUri": "https://chocolatey.org/content/packageimages/redis.2.4.6.1.png",
   "targetOsType": "Windows",
   "runCommand": {
-    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList redis-cli"
+    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList redis"
  
   }
 }
